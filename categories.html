@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Categories – Readers Hub</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #3cc376;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 25px;
+            color: #2c3e50;
+        }
+
+        .category-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .category-card {
+            background: white;
+            width: 220px;
+            height: 150px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+
+        .category-icon {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .category-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #34495e;
+        }
+    </style>
+</head>
+<body>
+
+<h1> Book Categories</h1>
+
+<div class="category-container">
+
+    <div class="category-card">
+        <div class="category-icon">📖</div>
+        <div class="category-name">Fiction</div>
+    </div>
+
+    <div class="category-card">
+        <div class="category-icon">📘</div>
+        <div class="category-name">Non-Fiction</div>
+    </div>
+
+    <div class="category-card">
+        <div class="category-icon">🎓</div>
+        <div class="category-name">Academic</div>
+    </div>
+
+    <div class="category-card">
+        <div class="category-icon">🧒</div>
+        <div class="category-name">Children</div>
+    </div>
+
+    <div class="category-card">
+        <div class="category-icon">🧑‍🎓</div>
+        <div class="category-name">Young Adult</div>
+    </div>
+
+    <div class="category-card">
+        <div class="category-icon">💻</div>
+        <div class="category-name">Skill & Career</div>
+    </div>
+
+    <div class="category-card">
+        <div class="category-icon">🧘</div>
+        <div class="category-name">Lifestyle</div>
+    </div>
+
+    <div class="category-card">
+        <div class="category-icon">🎨</div>
+        <div class="category-name">Art & Culture</div>
+    </div>
+
+</div>
+
+</body>
+</html>
