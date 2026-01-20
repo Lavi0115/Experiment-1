@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Readers Hub – Books</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #34928c;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            color: #090909;
+        }
+
+        /* Book container */
+        .book-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* Book card */
+        .book-card {
+            background: #ffffff;
+            width: 280px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .book-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .book-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0 5px;
+            color: #333;
+        }
+
+        .book-author {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 15px;
+        }
+
+        .read-btn {
+            text-decoration: none;
+            background: #3498db;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .read-btn:hover {
+            background: #1d6fa5;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Readers Hub</h1>
+
+<div class="book-container">
+
+    <!-- Book 1 -->
+    <div class="book-card">
+        <img src="harry potter.jpeg">
+        <div class="book-title">Harry Potter</div>
+        <div class="book-author">J.K. Rowling</div>
+        <a href="#" class="read-btn">Read Now</a>
+    </div>
+
+    <!-- Book 2 -->
+    <div class="book-card">
+        <img src="wings of fire.jpeg">
+        <div class="book-title">Wings of Fire</div>
+        <div class="book-author">A.P.J. Abdul Kalam</div>
+        <a href="#" class="read-btn">Read Now</a>
+    </div>
+
+    <!-- Book 3 -->
+    <div class="book-card">
+        <img src="atomic.jpeg">
+        <div class="book-title">Atomic Habits</div>
+        <div class="book-author">James Clear</div>
+        <a href="#" class="read-btn">Read Now</a>
+    </div>
+
+    <!-- Book 4 -->
+    <div class="book-card">
+        <img src="alchemist.jpeg">
+        <div class="book-title">The Alchemist</div>
+        <div class="book-author">Paulo Coelho</div>
+        <a href="#" class="read-btn">Read Now</a>
+    </div>
+
+    <!-- Book 5 -->
+    <div class="book-card">
+        <img src="clean code.jpeg">
+        <div class="book-title">Clean Code</div>
+        <div class="book-author">Robert C. Martin</div>
+        <a href="#" class="read-btn">Read Now</a>
+    </div>
+
+    <!-- Book 6 -->
+    <div class="book-card">
+        <img src="the fault in stars.jpeg">
+        <div class="book-title">The Fault in Our Stars</div>
+        <div class="book-author">John Green</div>
+        <a href="#" class="read-btn">Read Now</a>
+    </div>
+
+    <!-- Book 7 -->
+    <div class="book-card">
+        <img src="https://bookworm-online.com/wp-content/uploads/2019/05/Think-and-Grow-Rich-by-Napoleon-Hill-Free-Download-eBook.jpg">
+        <div class="book-title">Think and Grow Rich</div>
+        <div class="book-author">Napoleon Hill</div>
+        <a href="#" class="read-btn">Read Now</a>
+    </div>
+
+    <!-- Book 8 -->
+    <div class="book-card">
+        <img src="rich poor dad.jpeg">
+        <div class="book-title">Rich Dad Poor Dad</div>
+        <div class="book-author">Robert Kiyosaki</div>
+        <a href="#" class="read-btn">Read Now</a>
+    </div>
+
+    <!-- Book 9 -->
+    <div class="book-card">
+        <img src="ikigai.jpeg">
+        <div class="book-title">Ikigai</div>
+        <div class="book-author">Héctor García</div>
+        <a href="#" class="read-btn">Read Now</a>
+    </div>
+
+</div>
+
+</body>
+</html>
