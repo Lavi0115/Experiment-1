@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Readers Hub – Registration</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #1b1b1c;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .register-box {
+            background: white;
+            padding: 30px;
+            width: 350px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .register-box h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .register-box label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .register-box input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        .register-box input:focus {
+            outline: none;
+            border-color: #2b80b0;
+        }
+
+        .register-btn {
+            width: 100%;
+            padding: 12px;
+            background: #8c7d08;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .register-btn:hover {
+            background: #916a09;
+        }
+    </style>
+</head>
+<body>
+
+<div class="register-box">
+    <h2> Register Here</h2>
+    <form>
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email ID</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Age</label>
+        <input type="number" placeholder="Enter your age" required>
+
+        <button class="register-btn">Register</button>
+    </form>
+</div>
+
+</body>
+</html>
